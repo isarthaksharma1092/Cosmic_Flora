@@ -1,0 +1,16 @@
+Recucler View -> RecyclerView is a tool that helps developers create lists of items in Android apps. It is more efficient than previous
+                 tools like GridView and ListView because it recycles views that are not visible to the user, which saves memory and improves performance.
+
+              -> it will bring data from Json file into the screen  { it will map the data into the card }
+
+              -> Recycler View is the collection of View groups
+
+View  -> View is a basic building block of the user interface (UI) in an Android app. It is a small rectangular box that can be a TextView, EditText, or even a button.
+         It occupies an area on the screen in a rectangular shape and is responsible for drawing and event handling.
+
+      -> View is a graphical element that displays some type of content, such as text, images, or buttons, on the screen of an Android device.
+         Views can be combined to create more complex UI elements, such as lists, grids, and forms
+
+View Holder -> is responsible to holding a view
+
+Adapters - > Adapter is responsible for converting our data/views ina  format that can be consumed by Recycler View.

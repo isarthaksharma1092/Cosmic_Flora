@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.isarthaksharma.cosmicflora"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.isarthaksharma.cosmicflora"
@@ -32,6 +32,12 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    dataBinding{
+        enable = true
+    }
+    viewBinding{
+        enable = true
     }
 }
 
